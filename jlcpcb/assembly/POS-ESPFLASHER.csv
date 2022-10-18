@@ -1,0 +1,24 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,22u,C_0603_1608Metric,90.5,-58.5,180.0,top
+C2,22u,C_0603_1608Metric,102.5,-54.0,90.0,top
+C3,1u,C_0603_1608Metric,90.75,-45.5,180.0,top
+C4,1u,C_0603_1608Metric,101.25,-42.25,-90.0,top
+D1,RX,LED_0603_1608Metric,111.0,-59.0,180.0,top
+D2,TX,LED_0603_1608Metric,105.54,-59.0,180.0,top
+D3,PWR,LED_0603_1608Metric,114.5,-59.0,0.0,top
+J1,USB_B_Micro,USB_Micro-B_Amphenol_10118194_Horizontal,82.75,-50.0,-90.0,top
+J2,PROG,PinHeader_1x06_P2.54mm_Vertical,117.0,-42.92,0.0,top
+Q1,S8050,SOT-23_Handsoldering,108.5,-47.0,180.0,top
+Q2,S8050,SOT-23_Handsoldering,108.5,-43.0,180.0,top
+Q3,2N7002,SOT-23,112.0,-54.0,0.0,top
+Q4,2N7002,SOT-23,106.0625,-54.0,0.0,top
+R1,10k,R_0603_1608Metric,104.0,-48.0,0.0,top
+R2,10k,R_0603_1608Metric,104.0,-44.0,0.0,top
+R3,1k,R_0603_1608Metric,111.5,-51.0,0.0,top
+R4,1k,R_0603_1608Metric,111.0,-57.0,0.0,top
+R5,1k,R_0603_1608Metric,105.5,-51.0,180.0,top
+R6,1k,R_0603_1608Metric,105.5,-57.0,0.0,top
+R7,1k,R_0603_1608Metric,118.0,-59.0,0.0,top
+U1,AMS1117-3.3,SOT-223-3_TabPin2,97.0,-56.0,0.0,top
+U2,SRV05-4,SOT-23-6,89.64,-52.0,180.0,top
+U3,CH340C,SOIC-16_3.9x9.9mm_P1.27mm,96.475,-46.175,0.0,top
