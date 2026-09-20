@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ESPFLASHER")(type "KiCad")(uri "${KIPRJMOD}/ESPFLASHER.kicad_sym")(options "")(descr "ESPFLASHER project symbols"))
+)

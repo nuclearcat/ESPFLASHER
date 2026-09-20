@@ -1,3 +1,17 @@
+Unreleased (PCB V2)
+- Align each J2 label with its pin and identify the supply as 3V3.
+- Enforce 0.3 mm copper-to-edge clearance, move the bottom ground bridge inward,
+  and refill copper zones.
+- Replace U1 with TI TLV1117LV33DCYR (C15578), retaining the 22u ceramic C2.
+- Move U2 closer to USB, route both data lines across the ESD pads, keep the
+  main pair together over ground, and add ground stitching by the crossover.
+- Remove the RX/TX LEDs and their drivers (D1/D2, Q3/Q4, R3-R6), and move
+  the remaining power LED and resistor beside J2's 3V3 pin with a PWR label.
+- Replace Micro-USB with HRO TYPE-C-31-M-12 USB-C (C165948), keeping USB 2.0
+  data and nominal 5 V input. Add separate 5.1k CC resistors R8/R9, move U2
+  to fit the connector, and reroute the USB and connector power connections.
+- Refresh schematic/board previews, manufacturing archives and BOMs.
+
 v1.0.1
 - No changes, remanufacturing in JLCPCB, updated P/N
 - Updated kicad version
