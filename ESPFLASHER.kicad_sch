@@ -5,7 +5,7 @@
 	(uuid "2a410a72-2699-405a-9670-8fe79e2709de")
 	(paper "A4")
 	(title_block
-		(rev "2")
+		(rev "3")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x06_Male"

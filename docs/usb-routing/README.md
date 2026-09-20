@@ -2,8 +2,8 @@
 
 These are historical views of the Micro-USB routing change, before the later
 removal of the RX/TX indicators, relocation of the power LED, and USB-C conversion. See the
-[current board preview](../ESPFLASHER.png) and [revision notes](../revision-2.md)
-for the final V2 layout. The [USB-C conversion](../usb-c.md) supersedes the
+[current board preview](../ESPFLASHER.png) and [revision notes](../revision-3.md)
+for the final V3 layout. The [USB-C conversion](../usb-c.md) supersedes the
 connector placement and routing shown here.
 
 These images are generated directly from the KiCad PCB. The before views show
@@ -42,5 +42,5 @@ warnings remain. Only U2 changes position; all components retain their pin-net
 assignments and orientation. Both assembly position files, Gerber archives and
 the IPC netlist are updated.
 
-**V2 remains untested on physical hardware.** USB enumeration, repeated flashing
+**The current V3 revision remains untested on physical hardware.** USB enumeration, repeated flashing
 and ESD performance have not been bench-validated.

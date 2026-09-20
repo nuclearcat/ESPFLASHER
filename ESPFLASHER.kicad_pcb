@@ -8,7 +8,7 @@
 	)
 	(paper "A4")
 	(title_block
-		(rev "2")
+		(rev "3")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -4369,15 +4369,15 @@
 			(uuid "5087f58b-ebf3-4617-88a1-8a01d47c4db4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
+		(model "${KIPRJMOD}/3dmodels/HRO_TYPE-C-31-M-12.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -4.47 -3.65 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -4476,7 +4476,7 @@
 			(justify right)
 		)
 	)
-	(gr_text "ESP8266/32\nPROGRAMMER V2"
+	(gr_text "ESP8266/32\nPROGRAMMER V3"
 		(at 107.5 50.6 0)
 		(layer "F.SilkS")
 		(uuid "17305237-330d-4e62-9169-9ac6b1ed4c3d")

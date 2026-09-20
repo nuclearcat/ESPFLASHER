@@ -1,4 +1,7 @@
-# PCB V2
+# PCB V3
+
+The earlier Micro-USB board was marked V2. This USB-C revision is V3; its
+silkscreen, PCB/schematic revision fields and manufacturing files use revision 3.
 
 This revision addresses review items 1–3, replaces Micro-USB with USB-C,
 improves USB routing, and simplifies the LED circuit. The board outline and
@@ -67,7 +70,7 @@ they were immediately before this LED change.
 ## Manufacturing and validation
 
 Both `production/ESPFLASHER.zip` and `jlcpcb/gerber/GERBER-ESPFLASHER.zip` contain
-the same regenerated V2 copper, solder mask, paste, silkscreen, outline and drill
+the same regenerated V3 copper, solder mask, paste, silkscreen, outline and drill
 files. Both BOMs are regenerated from the current schematic's JLCPCB fields,
 including the sourcing updates already present in the schematic before these changes.
 The backup archive under `production/backups/` remains historical.

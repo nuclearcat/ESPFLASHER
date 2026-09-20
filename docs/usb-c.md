@@ -40,13 +40,17 @@ then run together toward the CH340C. Ground copper is refilled, and a
 short ground connection joins the connector shell to the adjacent ground
 via. The board title moves into the space freed by the removed RX/TX LEDs.
 
-The installed KiCad 3D library does not contain this connector's body model;
-the rendered preview shows its footprint, rather than a populated connector.
-Use the schematic, PCB footprint and manufacturer drawing for assembly review.
+J1 uses a project-local [STEP model](../3dmodels/README.md), with its scale,
+rotation and offset configured for this footprint. The updated board preview
+includes the connector; its placement was checked in top and oblique KiCad
+renders. Use the schematic, PCB footprint and manufacturer drawing for assembly
+review.
+
+![USB-C connector in the KiCad 3D view](usb-c-3d.png)
 
 KiCad reports no DRC electrical/clearance errors, unconnected pads or
 schematic/PCB mismatches. ERC has no electrical errors. Library-comparison
-warnings are described in the [revision notes](revision-2.md).
+warnings are described in the [revision notes](revision-3.md).
 
 Hardware is not yet tested. Verify USB enumeration and repeated flashing
 with a data-capable USB-A-to-C cable and USB-C-to-C cable, with the plug
