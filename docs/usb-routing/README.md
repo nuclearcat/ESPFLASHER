@@ -2,7 +2,7 @@
 
 These are historical views of the Micro-USB routing change, before the later
 removal of the RX/TX indicators, relocation of the power LED, and USB-C conversion. See the
-[current board preview](../ESPFLASHER.png) and [revision notes](../revision-3.md)
+[current board preview](../ESPFLASHER-v3.png) and [revision notes](../revision-3.md)
 for the final V3 layout. The [USB-C conversion](../usb-c.md) supersedes the
 connector placement and routing shown here.
 
